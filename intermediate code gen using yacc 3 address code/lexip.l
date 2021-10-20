@@ -1,4 +1,4 @@
-%option noyywrap
+
 opr [*+-/=]
 %%
 [\t]. {}
@@ -7,7 +7,7 @@ opr [*+-/=]
 {opr} {return(yytext[0]);}
 %%
 
-yywrap()
+int yywrap()
 { 
 return 1;
 }
