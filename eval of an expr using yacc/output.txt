@@ -1,0 +1,7 @@
+$ yacc exp_ev.y
+$ cc y.tab.c -ly
+$ ./a.out
+2*(3+7)
+20
+15/(5-2)
+5

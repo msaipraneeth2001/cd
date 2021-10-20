@@ -1,0 +1,49 @@
+$ cc recursive.c
+$ ./a.out
+The grammer is
+E-->E+T|T
+T-->T*F|F
+F-->i
+The elimination of left recursion is needed for implementing recursive descent parser
+arser
+The grammer after elimination of left recursion is
+E-->TE'
+E'-->+TE' | Epsilon
+T-->FT'
+T'-->*FT' | Epsilon
+F-->i
+enter input string and end the string with $
+i*i+i$
+successful
+$ ./a.out
+The grammer is
+E-->E+T|T
+T-->T*F|F
+F-->i
+The elimination of left recursion is needed for implementing recursive descent parser
+arser
+The grammer after elimination of left recursion is
+E-->TE'
+E'-->+TE'|Epsilon
+T-->FT'
+T'-->*FT'|Epsilon
+F-->i
+enter input string and end the string with $
+i$
+successful
+$ ./a.out
+The grammer is
+E-->E+T|T
+T-->T*F|F
+F-->i
+The elimination of left recursion is needed for implementing recursive descent parser
+arser
+The grammer after elimination of left recursion is
+E-->TE'
+E'-->+TE'|Epsilon
+T-->FT'
+T'-->*FT'|Epsilon
+F-->i
+enter input string and end the string with $
+i+i$
+successful

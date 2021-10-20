@@ -1,0 +1,20 @@
+$ cc targetcode.c
+$ ./a.out
+enter the postfix expression: abc/+
+load b R1
+div c R1
+st R1 t
+load a R2
+add t R2
+st R2 t
+$ ./a.out
+enter the postfix expression:abcd+/*
+load c R1
+add d R1
+st R1 t
+load b R2
+div t R2
+st R2 t
+load a R1
+mul t R1
+st R1 t

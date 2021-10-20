@@ -1,0 +1,15 @@
+$ ./a.out
+Enter the number of productions
+3
+Enter productions:
+S->BC
+B->a
+C->b
+Items are:
+0) S->.BC
+1) S->B.C
+2) S->BC.
+3) B->.a
+4) B->a.
+5) C->.b
+6) C->b.

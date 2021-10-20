@@ -1,0 +1,18 @@
+$ cc codegen.c
+$ ./a.out
+enter a string:a=b+c-d
+1.single adress
+2.Double Adress
+Enter choice:2
+ADD b c
+SUB b d
+MOV a b
+$ ./a.out
+enter a string:a=b+c-d
+1. single adress
+2.Double Adress
+Enter choice:1
+LOAD b
+ADD c
+SUB d
+STORE a

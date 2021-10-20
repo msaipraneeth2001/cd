@@ -1,0 +1,14 @@
+$ cc optimize.c
+$ ./a.out
+input the loop to be optimised:
+for(i=0;i<3;i++)
+{
+i=i+1;
+c=a+b;
+}
+optimised loop is
+for(i=0;i<3;i++)
+{
+i=i+1;
+}
+c=a+b;

@@ -1,0 +1,7 @@
+$ lex wordcount.l
+$ cc lex.yy.c -ll
+$ ./a.out
+This is our CC lab. ^d
+no. of characters:20
+no. of words:5
+no. of lines:1

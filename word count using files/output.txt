@@ -1,0 +1,6 @@
+$ lex wordfile.l
+$ cc lex.yy.c -ll
+$ ./a.out file no. of
+characters:40 no. of
+lines:2
+no.of words:8

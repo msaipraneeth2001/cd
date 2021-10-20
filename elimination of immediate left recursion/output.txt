@@ -1,0 +1,7 @@
+$ cc leftrec.c
+$ ./a.out
+enter the grammer:
+T->T*F|F
+The grammer after eliminating left recursion is:
+T->FX
+X->*FX|Epsilon

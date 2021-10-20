@@ -1,0 +1,12 @@
+$ lex lexip.l
+$ yacc three.y
+$ cc y.tab.c -ly
+$ ./a.out
+Three Address Code is:
+a=b/c+d*e-f*g
+s=b/c
+q=d*e
+p=s+q
+q=f*g
+r=p-q
+a=r

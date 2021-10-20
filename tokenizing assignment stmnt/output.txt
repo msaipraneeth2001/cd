@@ -1,0 +1,8 @@
+$./a.out
+enter exp a=b+3;
+a is variable
+= is assignment operator
+b is variable
++ is arithmetic operator
+3 is integer
+; is other character

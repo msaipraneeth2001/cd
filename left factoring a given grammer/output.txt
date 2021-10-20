@@ -1,0 +1,25 @@
+$ cc leftfact.c
+$ ./a.out
+enter the grammar with atmost three productions where only the first two productions have a common
+prefix :
+S->abA|abB|cd
+Gamma part is there
+Gamma is cd
+left factored grammar is:
+S->abX|cd
+X->A|B
+enter the grammar with atmost three productions where only the first two productions have a common
+prefix :
+S->aA|aB
+Gamma part is not there
+left factored grammar is:
+S->aX
+X->A|B
+enter the grammar with atmost three productions where only the first two productions have a common
+prefix :
+S->aA|aB|c
+Gamma part is there
+Gamma is c
+left factored grammar is:
+S->aX|c
+X->A|B

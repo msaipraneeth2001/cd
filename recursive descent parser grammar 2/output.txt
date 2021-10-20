@@ -1,0 +1,23 @@
+$ cc recursive2.c
+$ ./a.out
+The grammer is
+E-->x+T
+T--
+>(E)|x
+enter input string and end with dollar
+x+(x+x)$
+successful
+$ ./a.out
+The grammer is
+T-->(E)|x
+enter input string and end with dollar
+(x)$
+unsuccessful
+$ ./a.out
+The grammer is
+E-->x+T
+T--
+>(E)|x
+enter input string and end with dollar
+x+x$
+successful

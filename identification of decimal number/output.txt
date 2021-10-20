@@ -1,0 +1,11 @@
+$ lex decimal.l
+$ cc lex.yy.c -ll
+$ ./a.out
+7822.56
+number
+e
+not a number
+15.50e4
+number
+6
+number
